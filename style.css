@@ -1,0 +1,154 @@
+/* reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --all-font: 'Roboto', sans-serif;
+
+  --main-color: #FFFFFF;
+  --menu-option-color: #C4C4CC;
+  --text-color: #E1E1E6;
+  --text-button-hover: #02799D;
+  
+  --title-font-weight: 700;
+  --text-font-weight: 400;
+  
+  font-size: 62.5%;
+}
+
+h1 {
+  font-weight: 700;
+
+  font-size: 4.8rem;
+  line-height: 6rem;
+}
+
+body {
+  font-family: var(--all-font);
+  color: var(--main-color);
+  
+}
+
+nav {
+  position: fixed;
+  padding: 4rem 7.2rem;
+
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+
+nav a {
+  text-decoration: none;
+  font-size: 2.4rem;
+
+  color: var(--menu-option-color);
+
+  transition: 0.4s;
+}
+
+nav a:hover,
+nav a.active {
+  color: var(--main-color);
+}
+
+nav a.active {
+  font-weight: var(--title-font-weight);
+}
+
+.text-wrapper {
+  margin: 18.5rem 10.2rem;
+}
+
+.text-wrapper p {
+  width: 64.8rem;
+  margin-top: 2rem;
+
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+
+.backgroundHome {
+  background: url('/assets/mountains-universe-1.png');
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  
+  display: grid;
+  
+}
+
+.backgroundUniverse {
+  background: url('/assets/mountains-universe-2.png');
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  display: grid;
+
+}
+.backgroundExploration {
+  background: url('/assets/mountains-universe-3.png');
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  display: grid;
+
+}
+
+.backgroundHome section {
+  justify-self: center;
+  align-self: center;
+  
+  text-align: center;
+}
+
+
+.backgroundHome a ,
+.backgroundHome section button {
+  color: var(--main-color);
+  transition: 0.4s;
+}
+
+.backgroundHome a {
+  text-decoration: none;
+}
+
+.backgroundHome section button {
+  background: transparent;
+  border: 2px solid var(--main-color);
+  border-radius: 0.5rem;
+
+  font-weight: var(--title-font-weight);
+
+  text-transform: uppercase;
+
+  font-size: 1.4rem;
+
+  margin-top: 2.4rem;
+  padding: 1.2rem 3.2rem;
+
+  transition: 0.4s;
+}
+
+
+.backgroundHome section button:hover {
+  color: var(--text-button-hover);
+  background: var(--main-color);
+  cursor: pointer;
+}
+
+.backgroundHome section button:hover a {
+  color: var(--text-button-hover);
+}
+
+
+
+
+
+
+
+
