@@ -12,6 +12,13 @@ Este projeto foi realizado com HTML | CSS | JavaScript, simulando um projeto em 
 Para este projeto funcionar de melhor maneira, após clonar ele insira no terminal:
 
 ```bash
+  npm install lite-server
+```
+Ao instalar o lite-server, outros projetos são instalados na pasta node_modules, para rodar o servidor.
+
+E então insira:
+
+```bash
   npm start
 ```
 
